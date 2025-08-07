@@ -18,6 +18,25 @@ See `requirements.txt` for dependencies (numpy, pandas, dabest).
 2. Open and run `est_stats.ipynb` in Jupyter or VS Code.
 3. Adjust group names and plot settings as needed.
 
+## Setup for New Python Users
+1. Open a terminal in this project folder.
+2. Create a virtual environment (recommended):
+	 - On Windows:
+		 ```sh
+		 python -m venv venv
+		 .\venv\Scripts\activate
+		 ```
+	 - On Mac/Linux:
+		 ```sh
+		 python3 -m venv venv
+		 source venv/bin/activate
+		 ```
+3. Install the required packages:
+	 ```sh
+	 pip install -r requirements.txt
+	 ```
+4. Launch Jupyter or VS Code and open the notebook.
+
 ## Example
 ```python
 import pandas as pd
