@@ -1,0 +1,5 @@
+python==3.10.16
+dabest==2024.3.29
+numpy==1.19.2
+numpy==1.23.5
+pandas==1.5.3
